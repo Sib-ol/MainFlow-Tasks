@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Management</title>
+  <link rel="stylesheet" href="css3.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>Shop Management System</h1>
+  </header>
+
+  
+  <nav>
+    <ul>
+      <li><a href="#" class="tab-link active" data-tab="home">Home</a></li>
+      <li><a href="#" class="tab-link" data-tab="products">Products</a></li>
+      <li><a href="#" class="tab-link" data-tab="orders">Orders</a></li>
+      <li><a href="#" class="tab-link" data-tab="customers">Customers</a></li>
+      <li><a href="#" class="tab-link" data-tab="reports">Reports</a></li>
+    </ul>
+  </nav>
+
+ 
+  <div id="home" class="tab-content active">
+    <h2>Shop Management System</h2>
+    <p>Task-3 Full stack Web Development Internship.</p>
+    
+  
+    <section class="details">
+      <h3>Shop Overview</h3>
+      <p>task3 - INTERACTIVE ELEMENTS WITH JAVA SCRIPT.</p>
+      
+      <h3>Recent Activities</h3>
+      <ul>
+        <li>New products added: <span id="recentProducts">5</span></li>
+        <li>Orders processed this week: <span id="recentOrders">20</span></li>
+        <li>Customer sign-ups this month: <span id="recentSignUps">15</span></li>
+      </ul>
+    </section>
+  </div>
+  <div id="products" class="tab-content">
+    <h2>Product List</h2>
+    <button id="loadContent">Load More Products</button>
+    <div id="newContent"></div>
+  </div>
+  <div id="orders" class="tab-content">
+    <h2>Orders</h2>
+    <p>Manage your orders here.</p>
+  </div>
+  <div id="customers" class="tab-content">
+    <h2>Customers</h2>
+    <p>Manage your customers here.</p>
+  </div>
+  <div id="reports" class="tab-content">
+    <h2>Reports</h2>
+    <p>View your reports here.</p>
+  </div>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h2>Add New Product</h2>
+    <form id="myForm">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" required>
+      <span id="productNameError" class="error"></span><br><br>
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" required>
+      <span id="priceError" class="error"></span><br><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required>
+      <span id="quantityError" class="error"></span><br><br>
+
+      <input type="submit" value="Add Product">
+    </form>
+  </section>
+
+  <script src="js3.js"></script>
+</body>
+</html>

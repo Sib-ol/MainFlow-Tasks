@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline;
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #111;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  #form-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .product-item {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .bg-color-1 {
+    background-color: #ffcccb;
+  }
+  
+  .bg-color-2 {
+    background-color: #d1c4e9;
+  }
+  
+  .bg-color-3 {
+    background-color: #c8e6c9;
+  }
+  
+  .bg-color-4 {
+    background-color: #ffe0b2;
+  }
+  
+  .bg-color-5 {
+    background-color: #b3e5fc;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* New CSS for Details Section */
+  .details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details h3 {
+    margin-top: 0;
+  }
+  
+  .details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details ul li {
+    margin-bottom: 10px;
+  }
+  
